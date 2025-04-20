@@ -1,0 +1,64 @@
+.split-result-card {
+  background-color: white;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(143, 71, 215, 0.1);
+  position: relative;
+}
+
+.card-remove-button {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+}
+
+.remove-button {
+  height: 1.5rem;
+  width: 1.5rem;
+  color: #ccc;
+}
+
+.remove-button:hover {
+  color: #ef4444;
+  background-color: #fee2e2;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.card-icon {
+  height: 1.25rem;
+  width: 1.25rem;
+  color: #8f47d7;
+  margin-right: 0.5rem;
+}
+
+.card-title {
+  font-weight: 500;
+}
+
+.card-info {
+  font-size: 0.875rem;
+  color: #666;
+  margin-bottom: 0.75rem;
+}
+
+.card-download-button {
+  width: 100%;
+  background-color: #ff683b;
+  color: white;
+}
+
+.card-download-button:hover {
+  background-color: #e55a30;
+}
+
+.icon-small {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.5rem;
+}
